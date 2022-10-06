@@ -12,16 +12,23 @@
 <body>
     <header>
         <h2>Test your JavaScript knowledge!</h2> <br>
-        <p> Try your hand at these questions. If you're a confident coder, this quiz will be easy. If not, you may need a little more practice and some help from our trusty TAs, Lex and Sally. Keep on coding!</p>
+        <p> Try your hand at these questions. Each incorrect answer will reduce your remaining time (and final score)! If you're a confident coder, this quiz will be easy. If not, you may need a little more practice and some help from our trusty TAs, Lex and Sally, and incredible instructor, Jung! Keep on coding!</p>
     </header>
 
-    <section id="quiz">
-        <button id="go-btn">Let's go!</button>
+    <section>
+        <button id="go-btn" onclick="goQuiz()">Let's go!</button>
+        <div id="timer"></div>
+        <article id="quiz">
+        </article>
+    </section>
+
+    <section id="hiScores">
+        <ol></ol>
     </section>
 
 
     <footer>
-        <script src="/wonderQuizExtravaganza/assets/script.js"></script>
+        <script src="./assets/script.js"></script>
     </footer>
 </body>
 </html>

@@ -8,17 +8,31 @@ body {
 
 h2 {
     font-family: "Lato", sans-serif;
+    border-bottom: #E8AEB7, 5px, solid;
 };
 
 p {
     font-family: "Mulish", sans-serif;
+    border:#FFFFFF, 5px, solid;
 };
 
-.go-btn {
+button {
     padding: 5%;
     border-radius: 5px;
     background-color: #E8AEB7;
     border: none;
     color: #FFFFFF;
     font-style: oblique;
+};
+
+#quiz {
+    width: 40%;
+    height: 40%;
+    display: none;
+}
+
+#timer {
+    font-family: "Mulish", sans-serif;
+    color: #E8AEB7;
+    display: block;
 };
