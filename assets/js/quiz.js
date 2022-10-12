@@ -65,11 +65,7 @@ function startQuiz(param) {
     for(let i = 0; i < questions.length; i++) {
         console.log(questions[i]);
     };
+    document.getElementById("timer", "style: block").style.display;
+    questions.appendChild("quiz", "style: block");
 
-button.addEventListener("click", function() {
-        // display timer and questions (1 at a time)
-        document.getElementById("timer", "style: block").style.display;
-        document.getElementById("quiz", "style: block");
-        questions.appendChild("quiz", "style: block");
-    }
-    );
+button.addEventListener("click", startQuiz)
