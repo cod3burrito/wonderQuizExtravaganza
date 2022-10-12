@@ -25,10 +25,20 @@ button {
     font-style: oblique;
 };
 
+#quizBox {
+    background: #A9FFF7;
+    border: #B8E1FF 10px inset;
+    width: 60%;
+    height: 50%
+    /* display: block; */
+    /* align-self: center; */
+}
+
 #quiz {
     width: 40%;
     height: 40%;
-    display: none;
+    border:#FFFFFF 5px dashed;
+    display: block;
 }
 
 #timer {

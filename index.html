@@ -2,8 +2,7 @@
 <html>
 <head>
     <title>Test your JavaScript Knowledge</title>
-    <!-- <link rel="stylesheet" href="./assets/reset.css" /> -->
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;1,100&family=Mulish:wght@300&display=swap" rel="stylesheet"> 
@@ -11,12 +10,14 @@
 
 <body>
     <header>
-        <h2>Test your JavaScript knowledge!</h2> <br>
-        <p> Try your hand at these questions. Each incorrect answer will reduce your remaining time (and final score)! If you're a confident coder, this quiz will be easy. If not, you may need a little more practice and some help from our trusty TAs, Lex and Sally, and incredible instructor, Jung! Keep on coding!</p>
+        <h2>Test your JavaScript knowledge!</h2>
     </header>
 
-    <section>
-        <button id="go-btn" onclick="goQuiz()">Let's go!</button>
+    <section id="quizBox">
+        <article id="welcome">
+            <p>Try your hand at these questions. Each incorrect answer will reduce your remaining time (and final score)! If you're a confident coder, this quiz will be easy. If not, you may need a little more practice and some help from our trusty TAs, Lex and Sally, and incredible instructor, Jung! Keep on coding!</p>
+        </article>
+        <button id="go-btn">Let's go!</button>
         <div id="timer"></div>
         <article id="quiz">
         </article>
@@ -28,7 +29,8 @@
 
 
     <footer>
-        <script src="./assets/script.js"></script>
+        <script src="./assets/js/quiz.js"></script>
+        <script src="./assets/js/quizscores.js"></script>
     </footer>
 </body>
 </html>
