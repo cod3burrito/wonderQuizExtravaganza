@@ -56,14 +56,14 @@ function startQuiz(param) {
     }
     timer = 75
     let quizTimer = setInterval(() => {
-        console.log(timer--)
+        countdown --;
         if(timer === 0){
             alert("Time is up!")
             clearInterval(quizTimer)
         }
     }, 1000);
     for(let i = 0; i < questions.length; i++) {
-        console.log(questions[i]);
+    questions[i];
     };
     document.getElementById("timer", "style: block").style.display;
     questions.appendChild("quiz", "style: block");

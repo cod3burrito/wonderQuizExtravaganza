@@ -5,10 +5,10 @@ body {
     align-items: center;
     width: 70%;
     height: 60%;
-    padding-top: 25%;
+    padding-top: 5%;
 };
 
-h2 {
+h2, h3 {
     font-family: "Impact", sans-serif;
     border-bottom: #E8AEB7, 5px, solid;
 };
@@ -16,7 +16,7 @@ h2 {
 h6 {
     color: #9278C2;
     font-family: "Impact", sans-serif;
-}
+};
 
 p {
     border:#FFFFFF, 5px, solid;
@@ -37,16 +37,14 @@ button {
     border: #B8E1FF 10px inset;
     width: 60%;
     height: 50%
-    display: block;
-    align-self: center;
-}
+};
 
 #quiz {
     width: 40%;
     height: 40%;
     border:#FFFFFF 5px dashed;
     display: block;
-}
+};
 
 #timer {
     font-family: "Mulish", sans-serif;
